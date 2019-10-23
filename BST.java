@@ -8,7 +8,7 @@ public class BSTT {
 	}
 
 	private Node root;
-
+	//constructor
 	public BSTT(int arr[]) {
 		this.root = construct(arr, 0, arr.length - 1);
 	}
